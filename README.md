@@ -1,14 +1,6 @@
-```text
-████████╗██╗  ██╗███████╗    ██╗  ██╗██╗██╗   ██╗███████╗
-╚══╝██╔══╝██║  ██║██╔════╝    ██║  ██║██║██║   ██║██╔════╝
-    ██║   ███████║█████╗      ███████║██║██║   ██║█████╗  
-    ██║   ██╔══██║██╔══╝      ██╔══██║██║╚██╗ ██╔╝██╔══╝  
-    ██║   ██║  ██║███████╗    ██║  ██║██║ ╚████╔╝ ███████╗
-    ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚══════╝
-              [ MULTI-AGENT DEPLOYMENT SYSTEM v1.0 ]
-```
-
-> *"Every business has dead hours. Every dead hour is a lost customer. The Hive doesn't sleep."*
+<div align="center">
+  <img src="assets/banner.svg" alt="The Hive" width="100%"/>
+</div>
 
 ---
 
