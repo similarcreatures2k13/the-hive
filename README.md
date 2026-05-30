@@ -13,8 +13,7 @@
 ```
 ## STATUS
 
-Pre-v1. Active development starts after two upstream commitments clear
-(Mnemosyne security audit, band hackathon). What lives here today is the
+Pre-v1. Active development starts after two upstream commitments clear. What lives here today is the
 fixture corpus — production-shape multi-skill agent workflows the v1
 tooling will run against.
 
