@@ -1,6 +1,15 @@
-<div align="center">
-  <img src="assets/banner.jpg" alt="The Hive" width="100%"/>
-</div>
+<pre align="center">
+████████╗██╗  ██╗███████╗    ██╗  ██╗██╗██╗   ██╗███████╗
+╚══██╔══╝██║  ██║██╔════╝    ██║  ██║██║██║   ██║██╔════╝
+   ██║   ███████║█████╗      ███████║██║██║   ██║█████╗
+   ██║   ██╔══██║██╔══╝      ██╔══██║██║╚██╗ ██╔╝██╔══╝
+   ██║   ██║  ██║███████╗    ██║  ██║██║ ╚████╔╝ ███████╗
+   ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚══════╝
+
+         trigger diagnostics · behavioral telemetry
+              hermes agent · openclaw
+</pre>
+---
 
 ---
 
@@ -171,8 +180,7 @@ v2 — Behavioral telemetry
   - SQLite trace store (Mnemosyne-compatible interface planned)
   - Prediction vs observation reconciliation reports
 
-Out of scope: voice agents, CRM connectors, skill generation, security
-scanning. Those are other people's lanes or other repos.
----
+*Things this will never become: voice agents, CRM connectors, skill
+generation, security scanning. Scope discipline is the whole point.*
 
 *Tetsuo Labs · 0xTetsuo*
