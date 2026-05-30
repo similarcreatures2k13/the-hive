@@ -4,11 +4,34 @@
 
 ---
 
-## SYSTEM OVERVIEW
+## STATUS
 
-The Hive is a multi-industry AI agent arsenal built for real businesses. Not a demo. Not a chatbot template. Working agents that qualify leads, book appointments on real calendars, handle payments, and speak your customer's language.
+Pre-v1. Active development starts after two upstream commitments clear
+(Mnemosyne security audit, band hackathon). What lives here today is the
+fixture corpus — production-shape multi-skill agent workflows the v1
+tooling will run against.
 
-Two frameworks. Every messaging platform. Deploy in 30 minutes.
+## WHAT THIS BECOMES
+
+The Hive will be a skill trigger diagnostic and behavioral telemetry layer
+for Hermes Agent and OpenClaw. Two questions, one tool:
+
+- Predictive: given a skill corpus and a set of realistic prompts, which
+  skill should fire, which actually would, and which collide?
+- Empirical: once skills are running, which one did fire, on what prompt,
+  at what cost, with what outcome?
+
+The gap between prediction and reality is where the useful findings live.
+Skill authors don't currently have a way to test whether their description
+actually triggers on the phrasings users send. Operators don't have a
+clean view of which installed skills earn their context budget. The Hive
+fills both.
+
+## FIXTURE CORPUS
+
+Production-shape workflows with real integrations (Google Calendar, Stripe,
+multi-language flows). These exist as the dogfood corpus for the v1 trigger
+diagnostic — realistic targets, not toy examples.
 
 ```text
    THE HIVE
@@ -136,12 +159,20 @@ LANGUAGES     English · Arabic · French
 
 ## ROADMAP
 
-- [ ] Voice agent integration (VAPI)
-- [ ] CRM auto-sync (HubSpot, Airtable)
-- [ ] Self-evolving skills via DSPy + GEPA
-- [ ] Sector intelligence engine
-- [ ] Band multi-agent orchestration
+v1 — Skill trigger diagnostic
+  - SKILL.md parser (frontmatter + body, Hermes and OpenClaw)
+  - Prompt-set schema with expected-fire annotations
+  - LLM-judge: ranked skill selection per prompt with confidence
+  - Per-skill context cost + collision report
+  - Markdown + JSON output, CI exit codes
 
+v2 — Behavioral telemetry
+  - Runtime tracer for Hermes and OpenClaw
+  - SQLite trace store (Mnemosyne-compatible interface planned)
+  - Prediction vs observation reconciliation reports
+
+Out of scope: voice agents, CRM connectors, skill generation, security
+scanning. Those are other people's lanes or other repos.
 ---
 
-*Built by [@similarcreatures2k13](https://github.com/similarcreatures2k13) · Powered by terminal, coffee, and refusing to sleep.*
+*Tetsuo Labs · 0xTetsuo*
