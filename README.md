@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="The Hive" width="100%"/>
+  <img src="assets/banner.jpg" alt="The Hive" width="100%"/>
 </div>
 
 ---
