@@ -174,7 +174,7 @@ v1 — Skill trigger diagnostic
 
 v2 — Behavioral telemetry
   - Runtime tracer for Hermes and OpenClaw
-  - SQLite trace store (Mnemosyne-compatible interface planned)
+  - SQLite trace store (compatible interface planned)
   - Prediction vs observation reconciliation reports
 
 *Things this will never become: voice agents, CRM connectors, skill
